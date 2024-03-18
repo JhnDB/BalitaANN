@@ -259,3 +259,46 @@ p {
 #footer p {
     color: #eee;
 }
+
+@media only screen and (max-width: 1024px) {
+    #header-panel img {
+        display: none;
+    }
+    #hve {
+        font-size: 10vw;
+    }
+    #articles {
+        flex-direction: column;
+        gap: 5vh;
+        align-items: center;
+        padding: 5vh;
+    }
+    .separator {
+        height: auto;
+    }
+    #articles .card {
+        position: static;
+        width: 75vw;
+        height: 35vw;
+    }
+    .card h3 {
+        font-size: 3vw;
+    }
+    
+    .card p {
+        font-size: 2vw;
+    }
+    #articles .card:hover h3 {
+        font-size: 4vw;
+    }
+    #news div {
+        column-count: 1;
+    }
+    #news {
+        width: 90vw;
+        padding: 3vw;
+    }
+    #news h2 {
+        font-size: 5vw;
+    }
+}
