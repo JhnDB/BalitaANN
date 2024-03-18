@@ -8,6 +8,11 @@
     transition: 250ms;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 html {
 	scroll-behavior: smooth;
     overflow-x: hidden;
@@ -299,6 +304,6 @@ p {
         padding: 3vw;
     }
     #news h2 {
-        font-size: 5em;
+        font-size: 5vw;
     }
 }
